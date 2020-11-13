@@ -17,6 +17,8 @@ and then each spec file adds it's interactions to the contract file in the same 
 
 Compare `./consumer-provider.run1.json` with `./consumer-provider.run2.json` to see what changes inside the contract file.
 
+![](./screenshot.png)
+
 ## Steps to reproduce the problem
 
 1. Install all dependencies
