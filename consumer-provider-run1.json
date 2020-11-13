@@ -1,0 +1,140 @@
+{
+  "consumer": {
+    "name": "Consumer"
+  },
+  "provider": {
+    "name": "Provider"
+  },
+  "interactions": [
+    {
+      "description": "request #5",
+      "providerState": "state #5",
+      "request": {
+        "method": "GET",
+        "path": "/",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "body": {
+          "message": "Hello world5"
+        },
+        "matchingRules": {
+          "$.body.message": {
+            "match": "type"
+          }
+        }
+      }
+    },
+    {
+      "description": "request #4",
+      "providerState": "state #4",
+      "request": {
+        "method": "GET",
+        "path": "/",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "body": {
+          "message": "Hello world5"
+        },
+        "matchingRules": {
+          "$.body.message": {
+            "match": "type"
+          }
+        }
+      }
+    },
+    {
+      "description": "request #3",
+      "providerState": "state #3",
+      "request": {
+        "method": "GET",
+        "path": "/",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "body": {
+          "message": "Hello world5"
+        },
+        "matchingRules": {
+          "$.body.message": {
+            "match": "type"
+          }
+        }
+      }
+    },
+    {
+      "description": "request #1",
+      "providerState": "state #1",
+      "request": {
+        "method": "GET",
+        "path": "/",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "body": {
+          "message": "Hello world5"
+        },
+        "matchingRules": {
+          "$.body.message": {
+            "match": "type"
+          }
+        }
+      }
+    },
+    {
+      "description": "request #2",
+      "providerState": "state #2",
+      "request": {
+        "method": "GET",
+        "path": "/",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "body": {
+          "message": "Hello world5"
+        },
+        "matchingRules": {
+          "$.body.message": {
+            "match": "type"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
